@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+#content{
+    width: 100%;
+}
+
+
+.content_box>h2{
+    text-indent: 0;
+    width: 400px;
+    height: 43px;
+    background: #00529b;
+    text-align: center;
+    line-height: 43px;
+    margin-bottom: 100px;
+}
+
+.content_box>h2>a{
+    display: block;
+    width: 400px;
+    height: 43px;
+    color: #fff;
+}
+.condition{
+    width: 100%;
+    height: 150px;
+}
+
+.condition>h3{
+    text-indent: 0;
+    color: #003768;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.condition>p{
+    padding-left: 15px;
+}
+/* 개설 조건 */
+
+.procedure{
+    width: 100%;
+    height: 1000px;
+}
+
+.procedure>h3{
+    text-indent: 0;
+    color: #003768;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dddbdb;
+    padding-bottom: 10px;
+    font-size: 21px;
+    
+}
+.procedure>ul{
+    overflow: hidden;
+    border-bottom: 1px solid #dddcdb;
+}
+
+.procedure>ul>li{
+    width: 280px;
+    height: 280px;
+    float: left;
+    background: url(../img/franchsing/guideIcon/guideArrow.png) no-repeat right;
+}
+
+.procedure>ul>li:nth-child(4){
+    background: none;
+}
+
+.procedure>ul>li:nth-child(8){
+    background: none;
+}
+
+.procedure>ul>li:last-child{
+    background: none;
+}
+
+.procedure>ul>li>span{
+    display: block;
+    width: 180px;
+    height: 280px;
+    margin: 0 auto;
+}
+/* 개설절차 */
+
+.presentation{
+    width: 100%;
+    height: 250px;
+    background: #00529b;
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.presentation>h3{
+    text-indent: 0;
+    padding-top: 5%;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.presentation>a{
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    margin-top: 30px;
+    background: #71b9ff;
+    font-weight: bold;
+    border-radius: 20px;
+}
+/* 창업설명회안내 */
+
+.present_info{
+    border: 2px solid #dddcdb;
+    width: 1120px;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-bottom: 50px;
+    padding: 30px;
+    display: none;
+}
+
+.present_info>h2{
+    text-indent: 0;
+    text-align: center;
+    color: #003768;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.map{
+    width: 100%;
+    height: 235px;
+    background: url(../img/franchsing/map.PNG) no-repeat;
+    background-position: center center
+}
+.display{
+    display: block;
+}
+
+.bg_blue{
+    color: #00529b;
+}
+
+.bg_gray{
+    color: rgb(102,102,102);
+}
+
+.font_bold{
+    font-weight: bold;
+}
+
+.font_size18{
+    font-size: 18px;
+}
+
+.margin_bottom10{
+    margin-bottom: 10px;
+}
+
+.margin_bottom20{
+    margin-bottom: 20px;
+}
+
+.line{
+    border: 1px solid #00529b;
+    padding: 10px;
+}
+
+.close{
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 30px;
+    background: #71b9ff;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+/* 사업설명회 참석안내 */
+
+
+.question{
+    width: 100%;
+    height: 200px;
+}
+
+.question>h3{
+    text-indent: 0;
+    color: #003768;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.question>span{
+    display: block;
+    width: 540px;
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+
+    
+    

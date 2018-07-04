@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+   
+   <script>
+       $(document).ready(function(){
+         $("#header").load("header.html");
+         $("#footer").load("footer.html");
+      });
+    </script>
+    
+    <title>파리바게뜨</title>
+</head>
+<body>
+    <div id="header"></div>
+    
+    <main id="content">
+      <img src="img/event/event_img.png" alt="" class="main_img">
+       <section class="main_event">
+                  
+                  <span class="evt_title">진행중 이벤트</span>
+              </section>
+        <div class="content_box">
+               <section class="ongoing_event">
+               
+                <div class="ongoing_box">
+                    <a href="event_detail01.html" class="ongoing_img">
+                        <img src="img/event/ongoingEvent/evt01.jpg" alt="">
+                    </a>
+                    <div href="#" class="ongoing_txtbox">
+                        <p class="ongoing_tit">
+                            식빵 그 자체의 달콤함,골든스윗토스트
+                        </p>
+                        <p class="ongoing_des">
+                            아무것도 바르지 않고 황금빛으로 토스트 했을 때<br>
+                            가장~ 맛있고 달콤한 골든스윗토스트!
+                        </p>
+                        <p class="ongoing_date">
+                            ~ 2018-06-30
+                        </p>
+                    </div>
+                    <div class="ongoing_dday">
+                        <span id="dday">D-</span>
+                        <span id="target_day"></span>
+                    </div>
+                </div>
+                
+                <div class="ongoing_box">
+                    <a href="event_detail02.html" class="ongoing_img">
+                        <img src="img/event/ongoingEvent/evt02.png" alt="">
+                    </a>
+                    <div href="#" class="ongoing_txtbox">
+                        <p class="ongoing_tit">
+                            갓 따온 과일이 가득! 파리바게뜨 여름케이크
+                        </p>
+                        <p class="ongoing_des">
+                            청포도, 복숭아, 딸기와 바나나가 가득!<br>
+                            시원한 매장에서 상큼한 과즙 케이크를 만나보세요
+                        </p>
+                        <p class="ongoing_date">
+                            ~ 2018-07-31
+                        </p>
+                    </div>
+                    <div class="ongoing_dday">
+                        <span id="dday">D-</span>
+                        <span id="target_day4"></span>
+                    </div>
+                </div>
+                
+                <div class="ongoing_box">
+                    <a href="event_detail03.html" class="ongoing_img">
+                        <img src="img/event/ongoingEvent/evt03.jpg" alt="">
+                    </a>
+                    <div href="#" class="ongoing_txtbox">
+                        <p class="ongoing_tit">
+                            시원하게 컵빙하자! 하동 말차/자두/수박 컵빙
+                        </p>
+                        <p class="ongoing_des">
+                            언제 어디서나 간편하게!<br>
+                            시원한 컵빙은 역시 파리바게뜨<br>
+                            달콤하고 시원한 컵빙 3종을 다양한 맛으로 즐겨보세요
+                        </p>
+                        <p class="ongoing_date">
+                            ~ 2018-06-30
+                        </p>
+                    </div>
+                    <div class="ongoing_dday">
+                        <span id="dday">D-</span>
+                        <span id="target_day2"></span>
+                    </div>
+                </div>
+                
+                <div class="ongoing_box">
+                    <a href="event_detail04.html" class="ongoing_img">
+                        <img src="img/event/ongoingEvent/evt04.jpg" alt="">
+                    </a>
+                    <div href="#" class="ongoing_txtbox">
+                        <p class="ongoing_tit">
+                            파리에서 즐기는 맛있는 여유, 파리바게뜨
+                        </p>
+                        <p class="ongoing_des">
+                            파리바게뜨에서 만나는 파리의 아침!<br>
+                            AM 7~10시까지 스마일페이로 결제하시면<br>
+                            1,000원 혜택가로 든든한 아침을 즐길 수 있답니다.
+                        </p>
+                        <p class="ongoing_date">
+                            ~ 2018-07-31
+                        </p>
+                    </div>
+                    <div class="ongoing_dday">
+                        <span id="dday">D-</span>
+                        <span id="target_day3"></span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    
+    <div id="footer"></div>
+    
+    <script src="js/event.js"></script>
+</body>
+</html>

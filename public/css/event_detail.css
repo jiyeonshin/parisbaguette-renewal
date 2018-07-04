@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+#content{
+    width: 100%;
+}
+
+.content_box{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.ed_tit_box{
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #00529b;
+}
+
+.ed_tit{
+    font-size: 50px;
+    font-weight: bold;
+    color: #00529b;
+    margin-bottom: 20px;
+}
+
+.ed_des{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(102,102,102);
+}
+
+.ed_date{
+    font-size: 15px;
+    color: rgb(102,102,102);
+}
+
+
+.ed_content01{
+    width: 100%;
+    height: 1500px;
+    background: url(../img/event/event_detail/ed01.jpg) no-repeat;
+    background-position: center center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+.ed_content02{
+    width: 100%;
+    height: 2791px;
+    background: url(../img/event/event_detail/ed02.jpg) no-repeat;
+    background-position: center center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+.ed_content03{
+    width: 100%;
+    height: 1483px;
+    background: url(../img/event/event_detail/ed03.jpg) no-repeat;
+    background-position: center center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+.ed_content04{
+    width: 100%;
+    height: 3295px;
+    background: url(../img/event/event_detail/ed04.jpg) no-repeat;
+    background-position: center center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+
+.event_main{
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    background: #00529b;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+

@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+#content{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.franchsing_img{
+    display: block;
+    width: 2000px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    margin-bottom: 50px;
+}
+
+
+.content_box{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 400px;
+}
+
+.tab_menu{
+    overflow: hidden;
+    position: relative;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: 30px;
+}
+
+.tab_menu>a{
+    display: block;
+    width: 400px;
+    height: 43px;
+    text-align: center;
+    line-height: 43px;
+    font-size: 20px;
+    float: left;
+    font-weight: bold;
+}
+
+.on{
+    background: #00529b;
+    color: #fff;
+}
+
+.off{
+    background: #cccdcb;
+    /*color: #00529b;*/
+    color: #fff;
+}
+#franchising{
+    
+    margin-top: 100px;
+}

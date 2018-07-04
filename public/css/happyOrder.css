@@ -1,0 +1,288 @@
+@charset "utf-8";
+
+#content{
+    width: 100%;
+    font-family: 'SpoqaHanSans';
+}
+
+.content_box{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.happy_intro{
+    width: 100%;
+    height: 230px;
+    border-bottom: 2px solid #00529b;
+}
+
+.happy_des{
+    text-align: center;
+    font-weight: bold;
+    color: #181818;
+}
+/* 해피오더 인트로 */
+
+.order{
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px dotted #dddcdb;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+dl{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    margin-top: -75px;
+}
+
+.pickup{
+    left: 10%;
+}
+
+.delivery{
+    right: 10%;
+}
+dl>img{
+    float: left;
+    margin-right: 30px;
+}
+
+dt{
+    color: #00529b;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    
+}
+
+.pickupOrder{
+    margin-bottom: 20px;
+}
+
+.deliveryOrder{
+    margin-bottom: 10px;
+}
+
+dd{
+    font-size: 14px;
+}
+/* 픽업/배달주문 */
+
+.howtoOrder{
+    width: 100%;
+    height: 850px;
+    position: relative;
+}
+
+.howtoOrder>h2{
+    text-indent: 0;
+    color: #003768;
+    letter-spacing: -2px;
+    margin-left: 30px;
+}
+
+.step>img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.step>p{
+    text-align: center;
+    color: #00529b;
+    
+}
+.step{
+    width: 230px;
+}
+
+.up{
+    position: absolute;
+    top: 10%;
+}
+
+.step1{
+    left: 0;
+}
+
+.step2{
+    left: 50%;
+    margin-left: -115px;
+}
+
+.step3{
+    right: 0;
+}
+
+.down{
+    position: absolute;
+    top: 420px;
+}
+
+.step4{
+    left: 0;
+}
+
+
+.step5{
+    left: 50%;
+    margin-left: -115px;
+}
+
+.step6{
+    right: 0;
+}
+
+.arrow{
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: url(../img/happyOrder/arrow.png) no-repeat 100%;
+    
+    
+}
+
+
+.arrowUpleft{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+
+.arrowUpright{
+    position: absolute;
+    top: 250px;
+    right: 300px;
+}
+
+.arrowDownleft{
+    position: absolute;
+    top: 550px;
+    left: 300px;
+}
+
+.arrowDownright{
+    position: absolute;
+    top: 550px;
+    right: 300px;
+}
+/* 주문방법 */
+
+.benefit{
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.benefit>img{
+    position: absolute;
+    top: 0;
+}
+.benefit_txtbox{
+    position: absolute;
+    top: 15;
+    right: 6%;
+    color: #fff;
+}
+
+.benefit_des1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.benefit_des2{
+    color: #71b9ff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.benefit_des3{
+    width: 100%;
+    position: absolute;
+    bottom: 18%;
+    color: rgb(102,102,102);
+    text-align: center;
+    font-size: 13px;
+}
+/* 혜택 */
+
+.qrcode{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.appBox{
+    width: 300px;
+    height: 200px;
+}
+
+.appBox>p{
+    width: 100px;
+    height: 120px;
+    float: left;
+    margin-right: 20px;
+}
+
+.appBox>p>img{
+    margin-right: 20px;
+    width: 100%;   
+}
+
+.happyApp{
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+.kakaoApp{
+    position: absolute;
+    top: 0;
+    right: 15%;
+}
+
+.qr_tit{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.pink{
+    color: #fd5288;
+}
+
+.navy{
+    color: #003768;
+}
+
+.qr_des{
+    color: rgb(102,102,102);
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.happy_intro>h2{
+    width: 340px;
+    height: 90px;
+    background: url(../img/happyOrder/happyOrder01.png) no-repeat;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}

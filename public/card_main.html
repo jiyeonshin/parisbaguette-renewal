@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/card_happyPoint.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    
+    <script>
+       $(document).ready(function(){
+         $("#header").load("header.html");
+         $("#footer").load("footer.html");
+      });
+    </script>
+
+    <title>파리바게뜨</title>
+</head>
+<body>
+<div id="header"></div>
+
+<main id="content">
+    <div class="content_box">
+       <div class="category">
+           <h2>제휴 카드 안내</h2>
+        <p>다양한 카드혜택으로 파리바게뜨를 만나보세요</p>
+
+        <ul>
+            <li>
+                <a href="#" class="on happypoint">
+                    해피포인트
+                </a>
+            </li>
+            <li>
+                <a href="#" class="check">
+                    체크카드
+                </a>
+            </li>
+            <li>
+                <a href="#" class="credit">
+                    신용카드
+                </a>
+            </li>
+            <li>
+                <a href="#" class="membership">
+                    멤버십카드
+                </a>
+            </li>
+            <li>
+                <a href="#" class="gift">
+                    상품권
+                </a>
+            </li>
+        </ul>
+       </div>
+        
+
+
+        <section id="card_content">
+
+            <!--ajax 통신으로 dom 들어감-->
+
+        </section>
+
+
+    </div>
+</main>
+
+<div id="footer"></div>
+
+<script src="js/card.js"></script>
+</body>
+</html>

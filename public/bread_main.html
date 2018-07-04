@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    
+    <script>
+       $(document).ready(function(){
+         $("#header").load("header.html");
+         $("#footer").load("footer.html");
+      });
+    </script>
+    
+    <title>파리바게뜨</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header"></div>
+
+    <!-- content -->
+    <main id="content">
+        <div class="content_box">
+            <div class="category">
+                <h2>BREAD</h2>
+                <ul>
+                    <li><a href="#" class="on bread">간식용 빵</a></li>
+                    <li><a href="#" class="toast">식빵/식사용빵</a></li>
+                    <li><a href="#" class="donut">도넛</a></li>
+                    <li><a href="#" class="pastry">페스츄리/파이</a></li>
+                    <li><a href="#" class="made">조리빵</a></li>
+                    <li><a href="#" class="europe">유럽빵</a></li>
+                    <li><a href="#" class="snack">스낵</a></li>
+                    <li><a href="#" class="wheat">우리밀코너</a></li>
+                </ul>
+            </div>
+            <!-- //카테고리 -->
+            
+            <section id="product_content"></section>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <div id="footer"></div>
+    
+    <script src="js/product_main.js"></script>
+    
+</body>
+
+</html>

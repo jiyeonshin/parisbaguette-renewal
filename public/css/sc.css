@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+#content{
+    width: 100%;
+}
+
+.question_box{
+    display: block;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    top: 0;
+    border-top: 1px solid #dddcdb;
+}
+
+.question{
+    display: block;
+    width: 50px;
+    height: 70px;
+    background: url(../img/sc/icon_question.gif) no-repeat 100%;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+}
+
+.question_tit{
+    width: 850px;
+    height: 70px;    
+    padding-top: 15px;
+    padding-left: 30px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -425px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #181818;
+    
+}
+
+button{
+    display: block;
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    border: none;
+}
+
+.list_down{
+    background: url(../img/sc/list_down.png) no-repeat 100%;
+    background-position: center center;
+}
+
+.list_up{
+    background: url(../img/sc/list_up.png) no-repeat 100%;
+    background-position: center center;
+}
+/* 질문파트 */
+
+.answer_box{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    border-bottom: 1px solid #dddcdb;
+    display: none;
+}
+
+.answer{
+    display: block;
+    width: 50px;
+    height: 100px;
+    background: url(../img/sc/icon_answer.gif) no-repeat 100%;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+}
+
+.answer_des{
+    width: 850px;  
+    padding-left: 30px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -425px;
+    padding-top: 15px;
+    color: #181818;
+    font-size: 12PX;
+    border-top: 2px solid #dddcdb;
+}
+

@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+main{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* brand Story */
+.brandStory_intro{
+    margin-bottom: 120px;
+    margin-top: 350px;
+}
+
+.brandStory_intro>h2{
+    display: block;
+    text-indent: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #003768;
+    text-align: center;
+    font-size: 40px;
+}
+
+.brand_img{
+    display: block;
+    width: 2000px;
+    height: 300px;
+    background: url(../img/brandStory/brandStory_img01.png) no-repeat;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+}
+
+.center{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+p.des1{
+    width: 760px;
+    margin: 0 auto;
+    
+    text-align: center;
+    font-size: 18px;
+    color: #00529b;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+p.title{
+    text-align: center;
+    color: #f47b21;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+p.des2{
+    text-align: center;
+    width: 1120px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+
+/* vision */
+.vision{
+    font-family: 'SpoqaHanSans';
+    position: relative;
+    height: 550px;
+}
+
+.vision>h2{
+    display: block;
+    text-indent: 0;
+    margin-bottom: 50px;
+    color: #003768;
+    text-align: center;
+    font-size: 40px;
+}
+
+.vision_round{
+
+    
+}
+.vision_round>ul>li{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    padding-top: 30px;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    
+    
+}
+
+.vision_round>ul>li:nth-child(1){
+    background: #00529b;
+    left: 35%;
+}
+
+.vision_round>ul>li:nth-child(2){
+    background: #71b9ff;
+    right: 35%;
+}
+
+.vision>p{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    margin-left: -500px;
+    font-size: 18px;
+}
+
+/* 주요상품 */
+.mainProduct{
+    font-family: 'SpoqaHanSans';
+    height: 1250px;
+}
+
+.mainProduct>h2{
+    display: block;
+    text-indent: 0;
+    margin-bottom: 50px;
+    color: #003768;
+    text-align: center;
+    font-size: 40px;
+}
+.mainProduct>ul{
+    width: 900px;
+    margin: 0 auto;
+}
+.mainProduct>ul>li{
+    float: left;
+    margin-right: 30px;
+}
+
+.box{
+    width: 417px;
+    height: 500px;
+    
+}
+
+.box dt{
+    font-size: 20px;
+    color: #00529b;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.left{
+    margin-top: 30px;
+    text-align: right;
+}
+
+.right{
+    margin-bottom: 50px;
+    
+}
+
+.rBox{
+    padding-top: 30px;
+}
+img{
+    width: 100%;
+}
+

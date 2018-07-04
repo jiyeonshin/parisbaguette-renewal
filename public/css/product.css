@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+#content{
+    width: 100%;
+    font-family: 'SpoqaHanSans';
+}
+
+.content_box{
+    width: 100%;
+    max-width: 1120px;
+    /*border: 1px solid #f00;*/
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.category{
+    width: 100%;
+    height: 100px;
+    /*border: 1px solid;*/
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.category>h2{
+    text-indent: 0;
+    width: 100px;
+    height: 90px;
+    background: #f47b21;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;   
+    position: absolute;
+    left: 5%;
+}
+
+.category>ul{
+    width: 950px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.category>ul>li{
+    width: 140px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.category>ul>li>a{
+    display: block;
+    width: 140px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.off{
+    background: #dddcdb;
+    color: #003768;
+}
+
+.on{
+    background: #00529b;
+    color: #fff;
+}
+
+.transparent{
+    background: rgba(225, 225, 225, 0.7);
+}
+/* //카테고리 */
+
+.best_pro{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.best_pro>h2{
+    text-indent: 0;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #003768;
+}
+
+.conts{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 310px;
+    overflow: hidden;
+}
+.product_box{
+    
+    position: relative;
+  
+}
+
+.normal_pro{
+    width: 240px;
+    height: 310px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+    margin-left: 25px;   
+    left: -50%;
+}
+
+.pro_tit{
+    display: block;
+    color: #00529b;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.product_img{
+    position: relative;
+}
+
+.product_img>img{
+    /*border: 1px solid;*/
+    width: 100%;
+}
+
+.hover_pro{
+    background: rgba(255,255,255,0.7);
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.hover_pro>p{
+    color: #003768;
+    position: absolute;
+    top: 50%;
+    margin-top: -100px;
+    padding: 10px;
+    
+
+
+    font-size: 15px;
+}
+
+.hover_pro>a{
+    color: #fff;
+    background: #00529b;
+    border: none;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    margin-left: -35px;
+    
+}
+
+/* 상세페이지 */
+
+.detail_pro{
+    border-top: 3px solid #00529b;
+    border-bottom: 3px solid #00529b;
+    width: 1000px;
+    height: 400px;
+    position: absolute;;
+    left: 50%;
+    top: 310px;
+    margin-left: -500px;
+    margin-top: 10px;
+    color: rgb(102,102,102);
+    display: none;
+    clear: both;
+    
+}
+.detail_img{
+    width: 330px;
+    height: 390px;
+}
+
+.detail_img>img{
+    width: 100%;
+    height: 100%;
+}
+
+.detail_txtbox{
+    width: 640px;
+    height: 390px;
+    position: absolute;
+    top: 5%;
+    right: 2%;    
+}
+.detail_tit{
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-bottom: 1px solid #00529b;
+    
+}
+
+.detail_des{
+    padding-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    border-bottom: 1px dotted #dddcdb;
+    height: 50px;
+}
+
+.nutrition{
+    height: 230px;
+}
+
+.nutrition>span{
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    border-bottom: 2px solid #dddcdb;
+}
+
+.nutrition>ul{
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+}
+.nutrition>ul>li{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 10px;
+    border-bottom: 1px solid #dddcdb;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+}
+.nutrition>ul>li>span{
+    float: right;
+}
+
+.nutrition>p{
+    font-size: 14px;
+    padding-left: 20px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #dddcdb;
+}
+
+/* 전체 */
+.all_pro{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.all_pro>h2{
+    text-indent: 0;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #003768;
+}
+
+
+
+
+
+
+
+

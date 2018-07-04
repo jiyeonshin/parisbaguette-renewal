@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/sc_main.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <title>파리바게뜨</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header"></div>
+
+    <main id="content">
+        <div class="content_box">
+            <div class="sc_titbox">
+                <p class="sc_tit">
+                    고객센터
+                </p>
+
+                <p class="sc_des">
+                    고객님의 궁금증을 빠르고 정확하게 도와드리겠습니다
+                </p>
+
+
+            </div>
+
+            <div class="sc_tabmenu">
+                <p class="sc_des2">
+                    자주하는 질문
+                </p>
+                <ul>
+                    <li><a href="#" class="sc_on sc01">로그인/회원탈퇴</a></li>
+                    <li><a href="#" class="sc02">제품</a></li>
+                    <li><a href="#" class="sc03">주문/배송</a></li>
+                    <li><a href="#" class="sc04">제휴카드</a></li>
+                    <li><a href="#" class="sc05">모바일 상품권(해피콘)</a></li>
+                    <li><a href="#" class="sc06">상품교환권</a></li>
+                    <li><a href="#" class="sc07">기타</a></li>
+                    <li><a href="#" class="sc08">해피 기프트 카드</a></li>
+                </ul>
+            </div>
+
+            <div id="sc_content"></div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <div id="footer"></div>
+    
+    <script src="js/sc_main.js"></script>
+</body>
+</html>

@@ -1,0 +1,687 @@
+@charset "utf-8";
+
+.skipMenu{
+    text-indent: -9999px;
+    margin-top: -20px;
+}
+
+/* quick Menu */
+.quickMenu{
+    width: 100px;
+    height: 510px;
+    position: fixed;
+    right: 5%;
+    top: 50%; 
+    z-index: 100;
+    margin-top: -255px;
+}
+
+.quickMenu>h2{
+    font-family: 'SpoqaHanSans';
+    text-indent: 0;
+    background: #00529b;
+    font-size: 15px;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+
+.quickMenu>ul{
+    text-align: center;
+}
+
+.quickMenu>ul>li{
+    width: 100px;
+    height: 100px;
+}
+.quickMenu>ul>li>a{
+    display: block;
+    width: 100px;
+    height: 90px; 
+    text-indent: -9999px;
+}
+
+.quickMenu>ul>li:nth-child(1){
+    
+     background: url(../img/mainPage/quickMenu/quickMenu_06.png) no-repeat 100%;
+     background-position: center center;
+}
+
+.quickMenu>ul>li:nth-child(2){
+     background: url(../img/mainPage/quickMenu/quickMenu_08.png) no-repeat 100%;
+     background-position: center center;
+}
+
+.quickMenu>ul>li:nth-child(3){
+     background: url(../img/mainPage/quickMenu/quickMenu_10.png) no-repeat 100%;
+     background-position: center center;
+}
+
+.quickMenu>ul>li:nth-child(4){
+     background: url(../img/mainPage/quickMenu/quickMenu_12.png) no-repeat 100%;
+     background-position: center center;
+}
+
+.quickMenu>ul>li:nth-child(5){
+     background: url(../img/mainPage/quickMenu/quickMenu_03.png) no-repeat 100%;
+     background-position: center center;
+}
+
+
+.quickMenu>ul>li:after{
+    content: "";
+    display: block;
+    width: 80px;
+    border-bottom: 1px solid #dddcdb;
+    margin: 6px auto;
+}
+
+/* //quick Menu */
+
+
+#content{
+    position: relative;
+    font-family: 'SpoqaHanSans';
+    z-index: 1;
+}
+
+
+/* event page */
+.hotEvent{
+    width: 100%;
+    height: 570px;
+    margin-bottom: 100px;
+    /*border: 1px solid;*/
+}
+
+.hotEvent>h2{
+    text-indent: -9999px;
+}
+
+.slide_box{
+    width: 100%;
+    height: 570px;
+    overflow: hidden;
+    position: relative;
+    top: -36px;
+}
+
+.event_slide{
+    width: 6000px;
+    height: 570px;
+    position: absolute;
+    left: 0;
+    
+}
+
+.event_slide>li{
+    float: left;
+    width: 2000px;
+    height: 570px;
+}
+
+.event_slide>li>a{
+    display: block;
+    position: relative;
+    width: 2000px;
+    height: 570px;
+}
+
+.event_slide>li>a>img{
+    display: block;
+    width: 100
+        5
+}
+
+
+/*text box*/
+.txtBox{
+    width: 100%;
+    max-width: 1120px;
+    height: 420px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #181818;
+    
+}
+.paris_txtbox{
+    padding: 12% 5%;
+    
+}
+
+.paris_tit{
+    color: #003769;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.paris_des{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 2%;
+}
+
+.paris_des2{
+    font-size: 12px;
+    color: #181818;
+    padding-left: 3%;
+}
+/* //파리바게뜨 아침세트 */
+
+.pb_txtbox{
+    padding-top: 8%;
+    padding-left: 2%;
+    
+}
+
+.pb_tit{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 1.1;
+}
+
+.pb_des{
+    width: 310px;
+    font-size: 20px;
+    color: #00529b;
+    font-weight: 400;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 30px;
+}
+
+.pb_des2{
+    
+    font-weight: bold;
+}
+/* //창업 설명회 */
+
+.kt_txtbox{
+    padding: 5% 5%;
+   
+}
+/* //kt */
+
+.event_gnb{
+    width: 100px;
+    height: 25px;
+    position: relative;
+    bottom: 35px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+
+.event_gnb>li{
+    width: 20px;
+    height: 20px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.gnb_on{
+    background: #71b9ff;
+}
+
+.gnb_off{
+    background: #dddcdb;
+}
+
+
+
+/*gnb*/
+/* //event page */
+
+
+/* 이달의 신상품 */
+.newArrival{
+    width: 100%;
+    height: 500px;    
+}
+
+
+.newArrival_box{
+    width: 100%;
+    max-width: 1120px;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+   
+    
+}
+
+.newArrival_title{
+    width: 100px;
+    height: 160px;
+
+    background: url(../img/mainPage/newArrival/newArrival_03.png) no-repeat 100%;
+    
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    
+}
+.new_slider_box{    
+    width: 965px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.new_slide{
+    width: 1930px;
+    height: 350px;   
+    position: absolute;
+    left: 0;
+}
+
+.new_slider_box>ul>li{
+    float: left;
+    margin-right: 30px;    
+}
+
+.new_pro_box{
+    width: 100%;
+    max-width: 300px; 
+    height: 300px;
+
+    position: relative;
+    
+}
+
+.new_pro_box>a{
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    
+}
+
+/*.new_pro_box>a>p{
+    display: none;
+    width: 300px;
+    height: 300px;
+    background: rgba(255,255,255,0.7);
+    
+    padding: 30% 10%;
+    color: #00529b;
+    position: absolute;
+    top: 0;
+    left: 0;
+}*/
+.new_title{
+    display: block;
+    text-align: center;
+    /*border: 1px solid;*/
+    color: #003768;
+    font-weight: 600;
+}
+
+.newArrival_gnb{
+    width: 100%;
+    height: 40px;
+    /*border: 1px solid;*/
+    margin-top: 20px;
+}
+
+.newArrival_gnb>ul{
+    width: 70px;
+    height: 20px;
+    /*border: 1px solid;*/
+    margin: 0 auto;
+}
+
+.newArrival_gnb>ul>li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+/* happy order & kakao */
+.happySpecial{
+    width: 100%;
+    height: 400px;
+    /*border: 1px solid;*/
+}
+
+
+/* happyOrder */
+
+
+.happyOrder{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.happyOrder_img{
+    width: 100%;
+    height: 150px;
+    background: url(../img/mainPage/happyKakao/happyOrder_bg.png) no-repeat;
+    background-position: center center;
+    
+}
+
+.happyOrder_txtbox{
+    width: 600px;
+    height: 150px;
+    /*border: 3px solid #f00;*/
+    position: absolute;
+    top: 0;
+    left: 37%;
+    color: #fff;
+    padding-top: 1%;
+}
+
+.happyOrder_tit{
+    display: block;
+    font-size: 20px;
+    color: #71b9ff;
+    margin-bottom: 10px;
+}
+
+
+.happyOrder_des{
+    font-size: 12px;
+}
+
+.more{
+    display: block;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    width: 120px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    position: absolute;
+    right: 20%;
+    bottom: 15%;
+    
+}
+/* //해피오더 */
+
+/* 카카오스페셜 */
+.pbSpecial{
+    width: 100%;
+    height: 150px;
+    border: 1px solid;
+    position: relative;
+}
+
+.pbSpecial_img{
+    width: 100%;
+    height: 150px;
+    background: url(../img/mainPage/happyKakao/kakao_bg.png) no-repeat;
+    background-position: center center;
+    position: absolute;
+}
+
+.pbSpecial_txtbox{
+    width: 350px;
+    height: 150px;
+    /*border: 3px solid #f00;*/
+    position: absolute;
+    top: 0;
+    left: 41%;
+    
+    padding-top: 1%;
+}
+
+
+.pbSpecial_tit{
+    color: #838486;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.pb.more{
+    right: 25%;
+}
+/* //카카오 스페셜 */
+
+
+/* 안내 */
+.infomation{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    height: 400px;
+    /*border: 1px solid;*/
+    position: relative;
+}
+
+.infoFranchising{
+    
+    position: absolute;
+    left: 0;
+}
+
+.infoFranchising>a{
+    display: block;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+}
+
+.franchising_txtbox{
+    width: 500px;
+    height: 300px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    padding-top: 30%;
+}
+
+.franchising_txtbox>strong{
+    display: block;
+    width: 120px;
+    font-size: 30px;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.franchising_txtbox>p{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.findStore{
+    position: absolute;
+    right: 0;
+}
+
+.findStore_txtbox{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    padding-top: 30%;
+    text-align: center;
+}
+.findStore_txtbox>strong{
+    display: block;
+    width: 120px;
+    font-size: 30px;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+fieldset{
+    border: none;
+    text-indent: -9999px;
+}
+
+label{
+    display: none;
+}
+
+input[type=text]{
+    width: 250px;
+    height: 40px;
+    background: #00529b;
+    border: 2px solid #fff;
+}
+
+input[type=submit]{
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background: url(../img/mainPage/information/search.png) no-repeat;
+    border: none;
+    cursor: pointer;
+    
+}
+/* pbnews */
+.pbNews{
+    width: 1120px;
+    height: 400px;
+    margin: 0 auto;
+    /*border: 1px solid;*/
+    
+}
+
+.pbNews>section{
+    width: 360px;
+    height: 300px;
+    /*border: 1px solid;*/
+    float: left;
+    margin-left: 10px;
+    position: relative;
+}
+
+.news>h2{
+    text-indent: 0;
+    color: #003768;
+    border-bottom: 1px solid #003768;
+    margin-bottom: 10px;
+    /*padding-bottom: 5px;*/
+}
+.news>ul>li>a{
+    display: block;
+    width: 360px;
+    height: 25px;
+    margin-bottom: 5px;
+    /*border: 1px solid;*/
+}
+.newsCon{
+    width: 220px;
+    height: 30px;
+    float: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.date{
+    width: 100px;
+    float: left;
+}
+
+.news>a{
+    /*border: 1px solid;*/
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+}
+
+/* 셰프모집 */
+
+.chefRecurit{
+    
+    position: relative;
+}
+
+.chefRecurit>a{
+    position: absolute;
+    top: 45px;
+}
+
+.chef_txtbox{
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    top: 30%;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    background: rgba(0,0,0,0.7);
+    font-size: 25px;
+}
+
+
+/* 광고 */
+.ad>h2{
+    text-indent: 0;
+    color: #003768;
+    border-bottom: 1px solid #003768;
+    margin-bottom: 10px;
+}
+
+
+.ad>a{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
