@@ -110,8 +110,8 @@
     width: 6000px;
     height: 570px;
     position: absolute;
-    left: 0;
-    
+    left: 50%;
+    margin-left: -285px;
 }
 
 .event_slide>li{

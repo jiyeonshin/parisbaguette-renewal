@@ -163,6 +163,7 @@ address{
     display: block;
     text-align: center;
     font-size: 13px;
+    font-style: normal;
 }
 
 .footer_info>p{
