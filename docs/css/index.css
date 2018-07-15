@@ -110,8 +110,7 @@
     width: 6000px;
     height: 570px;
     position: absolute;
-    left: 50%;
-    margin-left: -285px;
+    left: 0;
 }
 
 .event_slide>li{
@@ -129,8 +128,7 @@
 
 .event_slide>li>a>img{
     display: block;
-    width: 100
-        5
+    width: 100%
 }
 
 
